@@ -1,17 +1,22 @@
-# Leaf Disease Classification
+# Leaf Disease Classification Using Densenet-201
 ## Training-on-Leaves
-  Developed a model that can classify Leaves as healthy or suffering with any disease with an accuracy of 93.11%.
+  Developed a model that can classify Leaves as healthy or suffering with any disease with an accuracy of 99.37%.(NewStrat.ipynb)
   <p align="center">
-    <img width="442" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/cf59f8e1-f954-46b2-acbf-6259bb5d9251">
-   <img width="238" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/b3d2823e-9b34-4724-8081-74ed3b5fa217">
+    <img width="323" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/53496e1e-ffe6-4d82-8890-00b373d17abc">
+     <img width="315" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/61aeb348-1433-43dc-9fa5-45f0c0038c7b">
+
+   <img width="289" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/2e328675-c538-4c9a-8db3-846b2ac3a02f">
+
 
   
   </p>
   
 ## Model
 * Here is the basic model Summary
+* Model has 1.8 million+ parameters 
 <p align="center">
-<img width="277" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/c3377077-4db7-43eb-b67f-dfa23847258d">
+
+<img width="290" alt="image" src="https://github.com/Abdullah-Malhi/Leaf-Disease-Classification/assets/167529778/62eff9fa-cdb5-4e2c-8043-db835a4f1540">
 
 </p>
 
@@ -22,4 +27,4 @@ The dataset is taken from Kaggle and here is the link
 * We did some data augmentation like flipping and rotation to get better results.
 * 90% of dataset was used for training. 10% for validation.
 ## Resolution
-The  image resolution  is 128*128.
+The  image resolution  is 512*512.
